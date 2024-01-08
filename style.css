@@ -47,11 +47,13 @@
   padding: 0px;
 }
 
-.task-item, .todo-title {
+.task-item, 
+.todo-title {
   list-style: none;
 }
 
-.checkbox-input, .btn{
+.checkbox-input, 
+.btn{
   outline: none;
 }
 
