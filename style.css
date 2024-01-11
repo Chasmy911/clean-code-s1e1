@@ -133,6 +133,7 @@
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 
 .task-item > .task-input {
@@ -160,11 +161,11 @@
   display: none;
 }
 
-.task-item .edit-mode .task-input {
+.task-item.edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.task-item .edit-mode label {
+.task-item.edit-mode label {
   display: none;
 }
